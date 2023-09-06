@@ -1,0 +1,35 @@
+name: Altinsoft Exe to Zip
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'update/other/EasyBridge-App-Setup-Altinsoft.exe'
+
+
+jobs:
+  Convert:
+    runs-on: [extenship]
+    env:
+      file: "EasyBridge-App-Setup-Altinsoft"
+      path: "update/other"
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        lfs: 'true'
+
+    - name: Zip the Exe File
+      run: | 
+        cd ${path}
+        rm ${file}.zip
+        zip ${file}.zip ${file}.exe
+
+    - name: Push to Repo
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Altinsoft Exe to Zip"
+        git push
