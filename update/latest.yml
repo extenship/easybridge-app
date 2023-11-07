@@ -1,8 +1,8 @@
-version: 1.0.9
+version: 1.1.0
 files:
-  - url: EasyBridge-App-Setup-1.0.9.exe
-    sha512: ka3bNjvMJ5t8YiIbSwmcvzOz1CJIqOQe+yW1N4jj1dsMBDbScXbMKyQMHPYdbHiUWFMvghCq0fWQvmnx8DNicQ==
-    size: 69836207
-path: EasyBridge-App-Setup-1.0.9.exe
-sha512: ka3bNjvMJ5t8YiIbSwmcvzOz1CJIqOQe+yW1N4jj1dsMBDbScXbMKyQMHPYdbHiUWFMvghCq0fWQvmnx8DNicQ==
-releaseDate: '2023-04-17T22:44:49.560Z'
+  - url: EasyBridge-App-Setup-1.1.0.exe
+    sha512: INYWOhkjl1V1ln024vDo/yfPkafZRmqxGiLZaGqnbY5YYcJubYN432BcYsrAu3Q4u8OzVOmnkIC0GbSTJBpDhA==
+    size: 70126097
+path: EasyBridge-App-Setup-1.1.0.exe
+sha512: INYWOhkjl1V1ln024vDo/yfPkafZRmqxGiLZaGqnbY5YYcJubYN432BcYsrAu3Q4u8OzVOmnkIC0GbSTJBpDhA==
+releaseDate: '2023-11-06T20:16:32.993Z'
