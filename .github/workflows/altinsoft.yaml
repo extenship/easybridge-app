@@ -9,7 +9,7 @@ on:
 
 jobs:
   Convert:
-    runs-on: ubuntu-latest
+    runs-on: extenship
     env:
       file: "EasyBridge-App-Setup-Altinsoft"
       path: "update/other"
